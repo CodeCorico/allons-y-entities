@@ -1,0 +1,7 @@
+{
+  "databases": [{
+    "type": "mongo",
+    "name": "Entities",
+    "description": "Mongo database containing the Entities system that combine all the objects types in one collection to perform high searchs."
+  }]
+}
