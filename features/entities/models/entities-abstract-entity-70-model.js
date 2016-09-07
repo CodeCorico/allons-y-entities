@@ -14,7 +14,7 @@ module.exports = function() {
         }
       });
 
-      return extend(true, extend(true, {}, {
+      return extend(true, {
         tableName: 'entities',
         connection: 'Entities',
         schema: false,
@@ -102,7 +102,7 @@ module.exports = function() {
 
           callback(null, values);
         }
-      }), config);
+      }, config);
 
     };
   });
