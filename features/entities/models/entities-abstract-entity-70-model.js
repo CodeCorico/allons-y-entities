@@ -3,7 +3,7 @@
 module.exports = function() {
   DependencyInjection.model('$AbstractEntityModel', function() {
 
-    return function AbstractEntityModel(config) {
+    return function $AbstractEntityModel(config) {
       var extend = require('extend'),
           befores = ['beforeCreate'];
 
